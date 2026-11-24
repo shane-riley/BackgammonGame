@@ -17,6 +17,11 @@ FetchContent_MakeAvailable(googletest)
 list(TRANSFORM BACKGAMMON_SOURCES PREPEND ${PROJECT_SOURCE_DIR}/)
 
 add_executable(backgammon_tests
+    board_test.cpp
+    game_test.cpp
+    notation_test.cpp
+    render_test.cpp
+    rules_test.cpp
     version_test.cpp
     ${BACKGAMMON_SOURCES}
 )

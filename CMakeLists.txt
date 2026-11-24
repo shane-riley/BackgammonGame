@@ -24,6 +24,11 @@ endif()
 
 # Game sources, excluding main.cpp so the tests can compile them too
 set(BACKGAMMON_SOURCES
+    src/board.cpp
+    src/game.cpp
+    src/notation.cpp
+    src/render.cpp
+    src/rules.cpp
     src/version.cpp
 )
 
